@@ -2,12 +2,12 @@ a:link {text-decoration:none;}
 a:visited {text-decoration:none;}
 body {
   padding-top: 3em;
+  padding-bottom: 3em;
   background: #555;
   background-image: url('textures/escheresque_ste.png');
 }
 div#container {
   font-family: 'Source Sans Pro', sans-serif;
-  background-image: url('textures/cream_dust.png');
   background: #fafafa;
   padding: 1em;
   padding-top: 0;
@@ -24,6 +24,7 @@ div#cv {
   max-width: 800px;
   margin: 0 auto;
   padding: 3em;
+  box-shadow: 5px 5px 10px #000;
 }
 h1#title { 
   font-size: 7em;
@@ -71,9 +72,14 @@ div.box {
 #cv strong {
   font-weight: 400;
 }
-
 #cv a { 
   color: #ccc;
+}
+#cv td a {
+  color: #000;
+}
+#cv td {
+  padding-right: 7px;
 }
 
 /* clearfix */
